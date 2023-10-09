@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Add your meta tags, title, and CSS links here -->
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAGIC FOODS SITE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+<style>
+body {
+    background-color: lightblue;
+}
+</style>
+</head>
+<body>
+    <nav class="navbar">
+        <!-- Add your navigation bar content here -->
+	 <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+		
+
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#food">Category</a></li>
+                <li><a href="#food-menu">Menu</a></li>
+                <li><a href="#testimonials">Testimonial</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+		
+            <h1 class="logo">MF</h1>
+        <div class="cart-icon">
+            <a href="#" id="view-cart"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </nav>
+    
+    <!-- Your other sections (showcase, about, food, etc.) -->
+	 <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h1 class="main-title" id="home">MAGIC FOODS</h1>
+            <p>Where Every Bite is a Spellbinding Experience!.</p>
+            <a href="#food-menu" class="btn btn-primary">Menu</a>
+        </div>
+    </section>
+
+	 <section id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <p class="small">About Us</p>
+                <h2>We've beem making healthy food last for 10 years</h2>
+                <p>
+                   Welcome to MAGIC FOODS, where culinary excellence meets a warm and inviting ambiance. Our restaurant is a haven for food enthusiasts, offering a diverse menu that tantalizes the taste buds with flavors from around the world. Whether you're looking for a romantic dinner, a family celebration, or a casual lunch with friends, our attentive staff and skilled chefs are dedicated to delivering a memorable dining experience. Join us for a delightful journey of gastronomic delights in a cozy and stylish setting
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ5NEn97PhCImhU2UU4-9TwzUXLtFYikj0YA&usqp=CAU" alt="food" />
+            </div>
+        </div>
+    </section>
+
+    <section id="food">
+        <h2>Types of food</h2>
+        <div class="food-container container">
+            <div class="food-type fruite">
+                <div class="img-container">
+                    <img src="https://i.postimg.cc/yxThVPXk/food1.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>fruite</h3>
+                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="blank">learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat this for other food items -->
+		<div class="food-type vegetable">
+                <div class="img-container">
+                    <img src="https://i.postimg.cc/Nffm6Rkk/food2.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>vegetable</h3>
+                       <a href="https://en.wikipedia.org/wiki/Vegetable" class="btn btn-primary" target="blank">learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type grin">
+                <div class="img-container">
+                    <img src="https://i.postimg.cc/76ZwsPsd/food3.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>grin</h3>
+                      <a href="https://en.wikipedia.org/wiki/Grain" class="btn btn-primary" target="blank">learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Your other sections (food menu, testimonials, contact, footer) -->
+
+		 <section id="food-menu">
+        <h2 class="food-menu-heading">Food Menu</h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/wTLMsvSQ/food-menu1.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Truffle Risotto</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                        quae.
+                    </p>
+                    <p class="food-price">Price: &#8377; 249</p>
+			 <button class="btn btn-primary add-to-cart-btn" data-item-name="Truffle Risotto">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/sgzXPzzd/food-menu2.jpg" alt="error" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Lobster Bisque</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                        quae.
+                    </p>
+                    <p class="food-price">Price: &#8377; 449</p>
+			 <button class="btn btn-primary add-to-cart-btn" data-item-name="Lobster Bisque">Add to Cart</button>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/8zbCtYkF/food-menu3.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile"> Beef Wellington</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                        quae.
+                    </p>
+                    <p class="food-price">Price: &#8377; 699</p>
+			 <button class="btn btn-primary add-to-cart-btn" data-item-name=" Beef Wellington">Add to Cart</button>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/Yq98p5Z7/food-menu4.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Seared Scallops with Citrus Beurre Blanc</h2>
+                    <p>
+                        Pan-seared jumbo sea scallops, delicately caramelized and served with a luscious citrus beurre blanc sauce. Complemented by a medley of seasonal vegetables and herb-infused risotto.
+                    </p>
+                    <p class="food-price">Price: &#8377; 1499</p>
+		 <button class="btn btn-primary add-to-cart-btn" data-item-name=" Pan-seared jumbo sea scallops, delicately caramelized and served with a luscious citrus beurre blanc sauce. Complemented by a medley of seasonal vegetables and herb-infused risotto.">Add to Cart</button>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/KYnDqxkP/food-menu5.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Vegetarian Portobello Wellington</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                        quae.
+                    </p>
+                    <p class="food-price">Price: &#8377; 899</p>
+			 <button class="btn btn-primary add-to-cart-btn" data-item-name="Vegetarian Portobello Wellington">Add to Cart</button>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/Jnxc8xQt/food-menu6.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Chocolate Decadence Cake</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                        quae.
+                    </p>
+                    <p class="food-price">Price: &#8377; 1299</p>
+			 <button class="btn btn-primary add-to-cart-btn" data-item-name="Chocolate Decadence Cake">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2 class="testimonial-title">What Our Customers Say</h2>
+        <div class="testimonial-container container">
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="https://i.postimg.cc/5Nrw360Y/male-photo1.jpg" alt="" />
+                        <p class="customer-name">Ross Lee</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+                    voluptas cupiditate aspernatur odit doloribus non.
+                </p>
+
+            </div>
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="https://i.postimg.cc/sxd2xCD2/female-photo1.jpg" alt="" />
+                        <p class="customer-name">Amelia Watson</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+                    voluptas cupiditate aspernatur odit doloribus non.
+                </p>
+
+            </div>
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="https://i.postimg.cc/fy90qvkV/male-photo3.jpg" alt="" />
+                        <p class="customer-name">Ben Roy</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+                    voluptas cupiditate aspernatur odit doloribus non.
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container container">
+            <div class="contact-img">
+                <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
+            </div>
+
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <input type="text" placeholder="Your Name" />
+                <input type="email" placeholder="E-Mail" />
+                <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
+                <a href="#" class="btn btn-primary">Submit</a>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <h2>Magic Foods Chain &copy; all rights reserved</h2>
+    </footer>
+    <!-- .................../ JS Code for smooth scrolling /...................... -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
